@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: auto;
+    width: auto;
+    background-color: azure;
+}
+nav{
+    display: flex;
+    padding:  2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img
+{
+    width: 300px;
+}
+.nav-links{
+    flex: 1;
+    text-align:center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color: #464444;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: antiquewhite;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100px;
+}
+h1{
+    color:#1abc9c ;
+    text-align: center;
+}
+table{
+    margin: 20px;
+    color: #959191c3;
+    size: 50%;
+}
+img{
+    align-items: center;
+}
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.project img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    color: rgb(247, 249, 251);
+}
+p{
+    color: rgb(244, 241, 238);
+}
+a{
+    color: aliceblue;
+}
+h1{
+    color: #1abc9c;
+}
+ 
+ table {
+    width: 100%;
+    border:   #fefbfb; 
+    border-radius: 15px; 
+    border-collapse: separate; 
+    overflow: hidden; 
+}
+
+th, td {
+    padding: 10px;
+    border:  #ddd; 
+    text-align: left;
+}
+
+.projects-section .project {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;     
+    align-items: center;    
+    height: 200px;           
+
+    }
+
+.center-button {
+    padding: 10px 20px;
+    background-color: #2e86c1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
